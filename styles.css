@@ -22,7 +22,9 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
+p{
+    color: #434343;
+}
 /* Navbar */
 nav {
 	position: fixed;
