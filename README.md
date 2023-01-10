@@ -4,8 +4,10 @@
 
 #### Visit the Website [here](https://anmolbansal7.github.io/cogoport-a1-html-css/)
 
+- Navbar On Scroll Colour Change Added
 - How it Works Toggle Added
 - Trusted By Marquee Added
+- Youtube Overlay Added
 
 #### Screenshot👇
 
