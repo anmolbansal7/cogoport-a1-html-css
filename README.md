@@ -1,5 +1,16 @@
 # Cogoport Academy - Problem set 1 - HTML & CSS Basic Website
 
+### Replica Complete
+
+#### Visit the Website [here](https://anmolbansal7.github.io/cogoport-a1-html-css/)
+
+- How it Works Toggle Added
+- Trusted By Marquee Added
+
+#### Screenshot👇
+
+![screencapture-anmolbansal7-github-io-cogoport-a1-html-css-2023-01-10-16_15_10](https://user-images.githubusercontent.com/60514776/211531388-5e0fd0a2-ce07-48a3-b8e2-f516c748f3cc.png)
+
 Create a replica of https://www.cogoport.com/ first page (no need to create any other pages linked). Following are the test cases you will have to pass in order to complete the problem set:
 - Breakpoint target is 1366 x 768 (use developer tools).
 - All the elements which are visible on the page are added.
