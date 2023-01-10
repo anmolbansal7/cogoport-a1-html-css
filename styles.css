@@ -22,8 +22,8 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-p{
-    color: #434343;
+p {
+	color: #434343;
 }
 /* Navbar */
 nav {
@@ -44,7 +44,7 @@ nav {
 .nav-top {
 	background-color: #fff;
 	transition: 0.2s;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 .nav-scroll {
 	background: #fbdc00;
@@ -65,7 +65,7 @@ nav ul li {
 	font-size: 14px;
 	font-family: var(--heading);
 	font-weight: 500;
-    cursor: pointer;
+	cursor: pointer;
 }
 nav ul li:hover {
 	color: #ee3425;
@@ -87,10 +87,10 @@ button.nav-btn {
 	align-items: center;
 	justify-content: center;
 }
-li#login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+li#login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 li#login:hover {
 	color: #000;
@@ -345,6 +345,97 @@ div.video-text {
 
 div.video-text span.text h3 {
 	margin-bottom: 10px;
+}
+
+section.blogs {
+	/* background-color: #ebbe00; */
+	padding: 16px;
+	padding-right: 96px;
+	padding-left: 96px;
+}
+
+div.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	/* border: 2px solid red; */
+	justify-content: center;
+	align-items: center;
+}
+
+.card-link {
+	width: 28%;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	overflow: hidden;
+	text-align: start;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+}
+
+.card-link:hover,
+.link:hover {
+	text-decoration: none;
+}
+
+.card .card-img {
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-color: #fbdc00;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.card .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 16px;
+}
+.card .text h4.red {
+	margin-bottom: 5px;
+	font-size: 16px !important;
+	color: #ee3425;
+}
+
+.card .text h4.sub {
+	margin-bottom: 5px;
+	font-size: 18px;
+	color: #000 !important;
+}
+
+.card .text p {
+	max-height: calc(1.4rem * 3);
+	overflow: hidden;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 16px;
+}
+
+.card .text .card-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card .text .card-footer span {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	color: #ee3425;
+	cursor: pointer;
+}
+
+.card .text .card-footer h4 {
+	margin-bottom: 5px;
+	font-size: 14px !important;
+	color: #9a9a9a;
+}
+div.show {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Newsletter */
