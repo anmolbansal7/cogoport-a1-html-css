@@ -243,6 +243,7 @@ a.prod-card h4 {
 	font-size: 16px;
 	line-height: 1.3em;
 	text-align: center;
+	font-family: var(--heading);
 }
 
 a.prod-card span.more {
@@ -304,6 +305,7 @@ button.work-btn {
 	background: #e5dfdf;
 	border: grey;
 	cursor: pointer;
+	font-size: 14px;
 }
 
 button.active {
@@ -481,6 +483,7 @@ button.sign-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: var(--normal);
 }
 
 div.start-right {
@@ -535,6 +538,7 @@ div.video-text {
 	margin-bottom: 40px;
 	padding: 20px 160px 40px 160px;
 	color: #fff;
+	font-size: 16px;
 }
 
 div.video-text span.text h3 {
@@ -595,6 +599,7 @@ div.card-container {
 	margin-bottom: 5px;
 	font-size: 18px;
 	color: #000 !important;
+	font-family: var(--heading);
 }
 
 .card .text p {
@@ -623,6 +628,7 @@ div.card-container {
 	margin-bottom: 5px;
 	font-size: 14px !important;
 	color: #9a9a9a;
+	font-family: var(--heading);
 }
 div.show {
 	display: flex;
@@ -659,6 +665,7 @@ section.news div.news-form h3 {
 	font-size: 28px;
 	line-height: 1.2;
 	font-family: var(--heading);
+	margin-bottom: 0;
 }
 section.news div.news-form span.news-subhead {
 	font-size: 16px;
@@ -694,6 +701,7 @@ button.sub-btn {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	cursor: pointer;
+	font-family: var(--normal);
 }
 /* Links */
 section.links {
@@ -725,6 +733,10 @@ section.links {
 .links div span h4 {
 	font-family: var(--heading);
 	margin: 7px 0;
+}
+
+.links div span a{
+	color: #2c3e50;
 }
 
 /* Ports */
